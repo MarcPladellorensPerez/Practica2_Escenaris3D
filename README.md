@@ -1,2 +1,2 @@
-# Practica2_Escenaris3D
-Practica 2 - Escenaris 3D: Marc, Montse, Aidan, Victor, Roger
+# BlockOut_Practica2_Escenaris3D
+BlockOut en Unity per a la practica 2 de l'assignatura Escenaris 3D a CITM UPC
