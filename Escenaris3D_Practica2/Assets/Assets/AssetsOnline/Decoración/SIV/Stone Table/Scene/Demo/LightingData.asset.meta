@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e8e9e1d8bf8b2024d950d9ce503998ac
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 112000000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 267797
+  packageName: Stylized Stone Table PBR
+  packageVersion: 1.0.0
+  assetPath: Assets/SIV/Stone Table/Scene/Demo/LightingData.asset
+  uploadId: 619826
