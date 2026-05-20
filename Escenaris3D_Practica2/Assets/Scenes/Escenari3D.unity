@@ -444,7 +444,7 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
---- !u!1 &816822831
+--- !u!1 &520202281
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -452,9 +452,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 816822834}
-  - component: {fileID: 816822833}
-  - component: {fileID: 816822832}
+  - component: {fileID: 520202284}
+  - component: {fileID: 520202283}
+  - component: {fileID: 520202282}
   m_Layer: 0
   m_Name: Terrain
   m_TagString: Untagged
@@ -462,13 +462,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
   m_IsActive: 1
---- !u!154 &816822832
+--- !u!154 &520202282
 TerrainCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 816822831}
+  m_GameObject: {fileID: 520202281}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -480,18 +480,18 @@ TerrainCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_TerrainData: {fileID: 15600000, guid: 474ea9759b8aad74aa0a8a8b90c1662a, type: 2}
+  m_TerrainData: {fileID: 15600000, guid: 5f3f4da86ee0f1c43828e5cfc246b774, type: 2}
   m_EnableTreeColliders: 1
---- !u!218 &816822833
+--- !u!218 &520202283
 Terrain:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 816822831}
+  m_GameObject: {fileID: 520202281}
   m_Enabled: 1
   serializedVersion: 6
-  m_TerrainData: {fileID: 15600000, guid: 474ea9759b8aad74aa0a8a8b90c1662a, type: 2}
+  m_TerrainData: {fileID: 15600000, guid: 5f3f4da86ee0f1c43828e5cfc246b774, type: 2}
   m_TreeDistance: 5000
   m_TreeBillboardDistance: 50
   m_TreeCrossFadeLength: 5
@@ -522,13 +522,13 @@ Terrain:
   m_EnableHeightmapRayTracing: 1
   m_EnableTreesAndDetailsRayTracing: 0
   m_TreeMotionVectorModeOverride: 3
---- !u!4 &816822834
+--- !u!4 &520202284
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 816822831}
+  m_GameObject: {fileID: 520202281}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -663,5 +663,5 @@ SceneRoots:
   - {fileID: 410087041}
   - {fileID: 832575519}
   - {fileID: 1844726564}
-  - {fileID: 816822834}
   - {fileID: 87351218}
+  - {fileID: 520202284}
