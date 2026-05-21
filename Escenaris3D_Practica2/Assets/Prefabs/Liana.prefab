@@ -1,0 +1,438 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3205801992611078321
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7370582603372275285}
+  m_Layer: 0
+  m_Name: Liana
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7370582603372275285
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3205801992611078321}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 69.41383, y: 81.54744, z: 55.75192}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 124864312671738370}
+  - {fileID: 232669915186837952}
+  - {fileID: 377418359804548962}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5204507921849706344
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 232669915186837952}
+  - component: {fileID: 396786383934175586}
+  m_Layer: 0
+  m_Name: Spline
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &232669915186837952
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5204507921849706344}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.029346745, z: -0, w: 0.9995693}
+  m_LocalPosition: {x: -8.173832, y: 11.621559, z: -7.8859177}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7370582603372275285}
+  m_LocalEulerAnglesHint: {x: 0, y: 3.363, z: 0}
+--- !u!114 &396786383934175586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5204507921849706344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dab5c7d4c32e743048dfca98e2d5914f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Splines::UnityEngine.Splines.SplineContainer
+  m_Spline:
+    m_EditModeType: 1
+    m_Knots: []
+    m_MetaData: []
+    m_Closed: 0
+    m_IntData:
+      m_Data: []
+    m_FloatData:
+      m_Data: []
+    m_Float4Data:
+      m_Data: []
+    m_ObjectData:
+      m_Data: []
+  m_Splines:
+  - m_EditModeType: 1
+    m_Knots:
+    - Position:
+        x: 0
+        y: 0
+        z: 0
+      TangentIn:
+        x: -0
+        y: -0
+        z: -1.9477444
+      TangentOut:
+        x: 0
+        y: 0
+        z: 1.9477444
+      Rotation:
+        value:
+          x: 0.27640438
+          y: 0.13206539
+          z: -0.038378228
+          w: 0.95115006
+    - Position:
+        x: 4.480049
+        y: -10.438759
+        z: 15.821892
+      TangentIn:
+        x: -0
+        y: -0
+        z: -1.9477444
+      TangentOut:
+        x: 0
+        y: 0
+        z: 1.9477444
+      Rotation:
+        value:
+          x: 0.27640438
+          y: 0.13206539
+          z: -0.038378228
+          w: 0.95115006
+    m_MetaData:
+    - Mode: 0
+      Tension: 0.5
+    - Mode: 0
+      Tension: 0.5
+    m_Closed: 0
+    m_IntData:
+      m_Data: []
+    m_FloatData:
+      m_Data: []
+    m_Float4Data:
+      m_Data: []
+    m_ObjectData:
+      m_Data: []
+  m_Knots:
+    m_KnotsLink: []
+--- !u!1 &7190475290959040718
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 124864312671738370}
+  - component: {fileID: 7427140377047198942}
+  - component: {fileID: 2586869935119751924}
+  - component: {fileID: 8760732079056548248}
+  m_Layer: 0
+  m_Name: LianaFunctionalPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &124864312671738370
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7190475290959040718}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.2807618, y: 0.14841332, z: -0.04399097, w: 0.94721234}
+  m_LocalPosition: {x: -5.633835, y: 5.7125626, z: 0.27808}
+  m_LocalScale: {x: 1, y: 1, z: 22.248795}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7370582603372275285}
+  m_LocalEulerAnglesHint: {x: 33.021, y: 17.81, z: 0}
+--- !u!114 &7427140377047198942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7190475290959040718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dab5c7d4c32e743048dfca98e2d5914f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Splines::UnityEngine.Splines.SplineContainer
+  m_Spline:
+    m_EditModeType: 1
+    m_Knots: []
+    m_MetaData: []
+    m_Closed: 0
+    m_IntData:
+      m_Data: []
+    m_FloatData:
+      m_Data: []
+    m_Float4Data:
+      m_Data: []
+    m_ObjectData:
+      m_Data: []
+  m_Splines:
+  - m_EditModeType: 1
+    m_Knots: []
+    m_MetaData: []
+    m_Closed: 0
+    m_IntData:
+      m_Data: []
+    m_FloatData:
+      m_Data: []
+    m_Float4Data:
+      m_Data: []
+    m_ObjectData:
+      m_Data: []
+  m_Knots:
+    m_KnotsLink: []
+--- !u!65 &2586869935119751924
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7190475290959040718}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8760732079056548248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7190475290959040718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc581ddaf4f744e40bd48807e397958b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LianaInteractionEnhanced
+  spline: {fileID: 396786383934175586}
+  uiPromptCanvas: {fileID: 0}
+  velocidadGrind: 15
+--- !u!1001 &2575172006425575570
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7370582603372275285}
+    m_Modifications:
+    - target: {fileID: -6689036041284674117, guid: d701e1331244e3a4eb60f46e47d0d277, type: 3}
+      propertyPath: m_Name
+      value: liana
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774220344278030320, guid: d701e1331244e3a4eb60f46e47d0d277, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.847485
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774220344278030320, guid: d701e1331244e3a4eb60f46e47d0d277, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.5738373
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774220344278030320, guid: d701e1331244e3a4eb60f46e47d0d277, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.5925598
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774220344278030320, guid: d701e1331244e3a4eb60f46e47d0d277, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.5580826
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774220344278030320, guid: d701e1331244e3a4eb60f46e47d0d277, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.692603
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774220344278030320, guid: d701e1331244e3a4eb60f46e47d0d277, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.3923437
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774220344278030320, guid: d701e1331244e3a4eb60f46e47d0d277, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.23920493
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774220344278030320, guid: d701e1331244e3a4eb60f46e47d0d277, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5560113
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774220344278030320, guid: d701e1331244e3a4eb60f46e47d0d277, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -54.045
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774220344278030320, guid: d701e1331244e3a4eb60f46e47d0d277, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 10.296
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774220344278030320, guid: d701e1331244e3a4eb60f46e47d0d277, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -82.776
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: -4432421765576011106, guid: d701e1331244e3a4eb60f46e47d0d277, type: 3}
+    - {fileID: 3883249098943506248, guid: d701e1331244e3a4eb60f46e47d0d277, type: 3}
+    - {fileID: -7632344235550047786, guid: d701e1331244e3a4eb60f46e47d0d277, type: 3}
+    - {fileID: -1121804733061389815, guid: d701e1331244e3a4eb60f46e47d0d277, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 468053318832812646, guid: d701e1331244e3a4eb60f46e47d0d277, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6403768916355414596}
+    - targetCorrespondingSourceObject: {fileID: 468053318832812646, guid: d701e1331244e3a4eb60f46e47d0d277, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8598873136752538364}
+    - targetCorrespondingSourceObject: {fileID: 468053318832812646, guid: d701e1331244e3a4eb60f46e47d0d277, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1060482205519184442}
+  m_SourcePrefab: {fileID: -5645937942226959685, guid: d701e1331244e3a4eb60f46e47d0d277, type: 3}
+--- !u!4 &377418359804548962 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2774220344278030320, guid: d701e1331244e3a4eb60f46e47d0d277, type: 3}
+  m_PrefabInstance: {fileID: 2575172006425575570}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2720742934809817844 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 468053318832812646, guid: d701e1331244e3a4eb60f46e47d0d277, type: 3}
+  m_PrefabInstance: {fileID: 2575172006425575570}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &6403768916355414596
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2720742934809817844}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 21527.336, y: 6457.541, z: 4466.554}
+  m_Center: {x: 523.079, y: 2326.0874, z: -429.38455}
+--- !u!114 &8598873136752538364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2720742934809817844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dab5c7d4c32e743048dfca98e2d5914f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Splines::UnityEngine.Splines.SplineContainer
+  m_Spline:
+    m_EditModeType: 1
+    m_Knots: []
+    m_MetaData: []
+    m_Closed: 0
+    m_IntData:
+      m_Data: []
+    m_FloatData:
+      m_Data: []
+    m_Float4Data:
+      m_Data: []
+    m_ObjectData:
+      m_Data: []
+  m_Splines:
+  - m_EditModeType: 1
+    m_Knots:
+    - Position:
+        x: 0.0009765625
+        y: -0.0625
+        z: 0.015625
+      TangentIn:
+        x: -0
+        y: -0
+        z: -0
+      TangentOut:
+        x: 0
+        y: 0
+        z: 0
+      Rotation:
+        value:
+          x: 0
+          y: 0
+          z: 0.00062974583
+          w: 0.9999999
+    m_MetaData:
+    - Mode: 0
+      Tension: 0.5
+    m_Closed: 0
+    m_IntData:
+      m_Data: []
+    m_FloatData:
+      m_Data: []
+    m_Float4Data:
+      m_Data: []
+    m_ObjectData:
+      m_Data: []
+  m_Knots:
+    m_KnotsLink: []
+--- !u!114 &1060482205519184442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2720742934809817844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc581ddaf4f744e40bd48807e397958b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LianaGrind
+  spline: {fileID: 0}
+  uiPromptCanvas: {fileID: 0}
+  velocidadGrind: 15
