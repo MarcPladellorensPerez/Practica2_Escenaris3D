@@ -21,14 +21,14 @@ MonoBehaviour:
   wLeader: 2
   wAvoidance: 20
   wBounds: 0.5
-  minSpeed: 4
-  maxSpeed: 6
+  minSpeed: 6
+  maxSpeed: 7
   rotationSpeed: 7
   rulesInterval: 0.03
   rayLength: 15
   sideRayAngle: 45
   avoidLayers:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 0
   boundsCenter: {x: 0, y: 0, z: 0}
   boundsExtents: {x: 15, y: 15, z: 15}
